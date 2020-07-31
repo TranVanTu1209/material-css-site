@@ -1,0 +1,63 @@
+/** @format */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	overflow-x: hidden;
+}
+header {
+	background: url("../images/showcase.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+.section {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+#photo img {
+	cursor: pointer;
+}
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: rgba(206, 15, 111, 0.068);
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(19, 108, 149, 0.198);
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 6px rgba(100, 12, 172, 0.5);
+	background-color: rgb(12, 109, 173);
+}
+.tabs .indicator {
+	background-color: turquoise;
+}
+.tabs .tab a {
+	color: teal;
+}
+.tabs .tab a:hover {
+	color: teal;
+}
+.tabs .tab a.active {
+	color: teal;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+	background-color: rgba(0, 128, 128, 0.082);
+	color: teal;
+}
+li {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+	header {
+		height: 50vh;
+	}
+}
